@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './components/navbar.css';
+@import './components/homepage.css';
+@import './components/services.css';
+@import './components/shop.css';
+@import './components/footer.css';
+@import './components/login.css';
+@import './components/signup.css'

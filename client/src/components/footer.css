@@ -1,0 +1,54 @@
+.footer {
+  min-height: 50vh;
+  background-color: #f5f3f4;
+  color: #6c757d;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: 4rem auto 0;
+  padding-bottom: 3rem;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+
+.container p {
+  margin: 2rem auto;
+}
+
+.container > div {
+  margin-top: 4rem;
+  width: 17rem;
+  text-align: center;
+}
+p i {
+  margin-right: 1rem;
+}
+
+p i:hover {
+  color: #0096c7;
+}
+
+.input input {
+  margin: 2rem 0 0 1rem;
+  border-style: none;
+  outline: none;
+  width: 13rem;
+  padding: 5px 10px;
+}
+
+.input button {
+  padding: 5px 10px;
+  border-style: none;
+  background-color: #0096c7;
+  color: white;
+}
+
+.input button:hover {
+  background-color: #3bbce6;
+}
+.input button:active {
+  background-color: #0096c7;
+}
