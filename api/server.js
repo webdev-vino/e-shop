@@ -46,12 +46,12 @@ app.post('/email', async (req, res) => {
               res.json(err);
           }
 })
-mongoose.connect("mongodb://127.0.0.1:27017/appDB")
+mongoose.connect("mongodb://0.0.0.0:27017/appDB")
     .then(() => {
         app.listen(port, () => {
             console.log(`server is running on port: ${port}`);
         });
-    })
+    }) 
     .catch((err) => {
         console.error("Error connecting to MongoDB:", err);
-    });
+    }); 
