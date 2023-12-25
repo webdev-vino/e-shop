@@ -37,7 +37,7 @@ app.post("/login", (req, res) => {
         }
     })
 })
-
+ 
 app.post('/email', async (req, res) => {
     try{
         const result = await emailModel.create(req.body);
